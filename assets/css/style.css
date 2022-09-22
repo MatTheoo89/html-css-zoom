@@ -33,8 +33,8 @@ img{
 /*  COMPONENTS  */
 
 .main-container{
-    width: 90%;
-    max-width: 90vw;
+    /* width: 90%; */
+    max-width: 95vw;
     margin: 0 auto;
 }
 .small-container{
@@ -109,28 +109,29 @@ header{
 /*  MAIN  */
 
 main{
-    height: calc(100vh - 150px);
     background-color: rgb(0, 0, 0);
     overflow: auto;
 }
 
 main .main-container{
+    height: calc(100vh - 130px);
     justify-content: center;
 }
 
 .avatar{
+    display: flex;
     position: relative;
     margin-right: 10px;
     margin-bottom: 10px;
 }
 
 .avatar img{
-    width: 250px;
+    height: 50%%;
 }
 
 .status{
     position: absolute;
-    bottom: 5px;
+    bottom: 2px;
     left: 0px;
     color: white;
     background-color: rgba(100, 113, 127, .5);
@@ -146,8 +147,9 @@ main .main-container{
 /*  FOOTER  */
 
 footer{
+    justify-content: space-between;
     position: relative;
-    height: 100px;
+    height: 80px;
     background-color: #222222;
 }
 
@@ -172,7 +174,7 @@ footer span{
 }
 
 .box-icon i{
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 .main-box-icon i.fa-chevron-up{
     margin-left: 10px;
@@ -180,15 +182,17 @@ footer span{
 }
 
 
+.active{
+    color: green;
+}
+
+
 .foot-right{
-    position: absolute;
-    top: 0;
-    right: 0;
     color: red;
     background-color: #4A4A4A;
     width: 120px;
-    height: 100px;
-    line-height: 100px;
+    height: 80px;
+    line-height: 80px;
     text-align: center;
 }
 
