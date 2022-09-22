@@ -106,11 +106,6 @@ header{
     margin-right: 5px;
 }
 
-/*  NAVBAR  */
-
-/*  /NAVBAR  */
-
-
 /*  MAIN  */
 
 main{
@@ -151,8 +146,51 @@ main .main-container{
 /*  FOOTER  */
 
 footer{
+    position: relative;
     height: 100px;
     background-color: #222222;
 }
+
+footer i{
+    color: white;
+    margin-bottom: 10px;
+}
+
+footer span{
+    display: block;
+    font-size: .8rem;
+}
+
+.foot-left{
+    flex-direction: row;
+}
+
+.box-icon{
+    flex-direction: column;
+    color: white;
+    margin-left: 20px;
+}
+
+.box-icon i{
+    font-size: 2rem;
+}
+.main-box-icon i.fa-chevron-up{
+    margin-left: 10px;
+    font-size: .7rem;
+}
+
+
+.foot-right{
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: red;
+    background-color: #4A4A4A;
+    width: 120px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+}
+
 
 /*  /FOOTER  */
