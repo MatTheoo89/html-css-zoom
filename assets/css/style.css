@@ -64,7 +64,7 @@ img{
 
 .btn{
     border: none;
-    padding: 5px 10px;
+    padding: 5px 5px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -91,6 +91,20 @@ header{
 
 /*  /HEADER  */
 
+.nav-menu{
+    margin-left: auto;
+    padding-right: 20px; /*So che è sbagliato ma attaccato a dx non mi piace*/
+    color: white;
+}
+
+.nav-menu .btn{
+    background-color: #4A4A4A;
+    border-radius: 5px;
+}
+
+.nav-menu i.fa-grip{
+    margin-right: 5px;
+}
 
 /*  NAVBAR  */
 
